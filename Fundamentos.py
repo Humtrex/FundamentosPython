@@ -144,6 +144,8 @@ print(q[0:18:3])
 cadena1 ="Hola"
 cadena4 = (cadena1 + " ") * 5
 print(cadena4)
+cadena5 = cadena4.upper()
+print(cadena5)
 
 nuevoTema("Objetos mutables e inmutables")
 print("Inmutables")
