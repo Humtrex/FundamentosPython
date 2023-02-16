@@ -116,6 +116,10 @@ import random
 clientes = ["Alex","Bob","Carol","Dave","Flow","Katie","Nate"]
 dic_desc = {cliente:random.randint(1, 100) for cliente in clientes}
 print(dic_desc)
+'''l = {1:"val1", 2:"val2"}
+print(type(l))
+print("d[1] = ", d[1])
+print("d[2] = ", d[2])'''
 
 nuevoTema("Cadenas")
 q = "Esto es una cadena"
@@ -123,10 +127,13 @@ print(q)
 print(type(q))
 w = "Esto es una comilla doble \" de ejemplo"
 print(w)
+r = '''A multiline
+ string'''
+print(r)
 
 nuevoTema("Objetos mutables e inmutables")
 print("Inmutables")
-print("int, float, complejos, cadenas, tuplas, conjuntos congelados y bytes")
+print("Son numeros, cadenas, tuplas y conjuntos estaticos")
 print("")
 print("Mutables")
 print("listas, diccionarios, conjuntos, bytearray")
