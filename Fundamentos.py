@@ -127,9 +127,23 @@ print(q)
 print(type(q))
 w = "Esto es una comilla doble \" de ejemplo"
 print(w, type(w))
-r = '''A multiline
- string'''
+r = '''Esta es una cadena
+de varias lineas    con tabulares  y
+        saltos
+de
+linea'''
 print(r,type(r))
+print("Segmentacion de cadenas")
+print(q[5:11])
+print(q[:5])
+print(q[7:])
+print(q[-8:-1])
+print(q[0:18:1])
+print(q[0:18:2])
+print(q[0:18:3])
+cadena1 ="Hola"
+cadena4 = (cadena1 + " ") * 5
+print(cadena4)
 
 nuevoTema("Objetos mutables e inmutables")
 print("Inmutables")
