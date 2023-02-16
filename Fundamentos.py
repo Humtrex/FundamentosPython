@@ -103,33 +103,33 @@ print("t[2] = ",t[2])
 print("t[1:4] = ",t[1:4])
 #t[1]= 34 Operación no validas en las tuplas
 
-nuevoTema("Sets")
+nuevoTema("Sets o conjuntos")
 s=set([5,4,6,8,8,1])
-print(s)
+print("s = ",s)
 print(type(s))
 #s[0] = 3 da error
 for ss in s:
     print(ss) #iteracion
 
 nuevoTema("Diccionarios")
+d = {1:"Valor1", "Valor2":2j}
+print(d,type(d))
+print("d[Valor2]:",d["Valor2"])
+print("")
 import random
 clientes = ["Alex","Bob","Carol","Dave","Flow","Katie","Nate"]
 dic_desc = {cliente:random.randint(1, 100) for cliente in clientes}
 print(dic_desc)
-'''l = {1:"val1", 2:"val2"}
-print(type(l))
-print("d[1] = ", d[1])
-print("d[2] = ", d[2])'''
 
 nuevoTema("Cadenas")
 q = "Esto es una cadena"
 print(q)
 print(type(q))
 w = "Esto es una comilla doble \" de ejemplo"
-print(w)
+print(w, type(w))
 r = '''A multiline
  string'''
-print(r)
+print(r,type(r))
 
 nuevoTema("Objetos mutables e inmutables")
 print("Inmutables")
